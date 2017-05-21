@@ -1,8 +1,100 @@
-/*
-Colores & tipografía: 
-Verde - #ABE188;
-Rosa - #F78E69;
-font-family: 'Raleway', sans-serif;
-*/
+/*global*/
+* {
+	font-family: 'Raleway', sans-serif;
+	margin: 0 auto;
+    /*background-color: #F78E69;*/
+    color: white;
+}
+/* sección */
+.contenedor_uno {
+    height: 90px;
+    width: auto;
+    text-align: right;
+    padding: 40px;
+    background-color: #F78E69;
+}
 
-/* Escribe tu código acá debajo */
+.titulo {
+    font-size: 40px;
+}
+/* sección */
+.contenedor_dos {
+    background: url("../img/uno.jpg");
+    /*centra y se adapta al body total*/
+    background-size: cover;
+    background-position: center;
+    background-color: #F78E69;
+    width: auto;
+    height: 400px;
+    padding: 50px 0;
+}
+/* sección */
+.contenedor_tres {
+    background-color: #abe188;
+    height: auto;
+    width: auto;
+    padding: 50px;
+}
+.recuadro {
+    background-color: #F78E69;
+    width: 50%;
+    height: auto;
+    text-align: center;
+    padding: 20px;
+    margin: 0 auto;
+}
+/* sección */
+.contenedor_cuatro {
+    background: url("../img/dos.jpg");
+    /*centra y se adapta al body total*/
+    background-size: cover;
+    background-position: center;
+    background-color: #F78E69;
+    width: auto;
+    height: 400px;
+    padding: 50px 0;
+}
+/* sección */
+.contenedor_galeria {
+    background-color: #abe188;
+    text-align: center;
+    height: auto;
+    width: auto;
+    padding: 50px;
+}
+
+.imagenes {
+    background-color: #abe188;
+    margin: 0 auto;
+    padding-top: 50px;
+    text-align: center;
+    
+}
+.imagen {
+    border: 5px solid white;
+    overflow: hidden;
+    height: auto;
+    width: 85%;
+}
+
+.marco {
+    display: inline-block;
+    width: 20%;
+}
+/* sección */
+.contenedor_cinco {
+    background: url("../img/tres.jpg");
+    /*centra y se adapta al body total*/
+    background-size: cover;
+    background-position: center;
+    width: auto;
+    height: 400px;
+    padding: 50px 0;
+}
+footer {
+    background-color: #F78E69;
+    width: auto;
+    height: 30px;
+    text-align: right;
+    padding: 15px;
+}
